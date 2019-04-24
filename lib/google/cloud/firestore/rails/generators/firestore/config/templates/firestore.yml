@@ -1,0 +1,5 @@
+development:
+  # project id:
+  project_id:
+  # path to credentials file (see https://github.com/suryart/google-cloud-firestore-rails/blob/master/KEYFILE.md for instructions):
+  credentials: "/path/to/keyfile.json"

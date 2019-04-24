@@ -29,10 +29,17 @@ rails g firestore:model model_name field1:value_type field2:value_type
 
 ```ruby
 rails g firestore:model user name:string password_digest:string
+#=> will create and save documents in users collection
 
-# or
-
+# More data types
 rails g firestore:model user_log references:user ativity:string actions:array
+#=> will create and save documents in user_logs collection
+
+# With custom collection
+rails g firestore:model user_log references:user ativity:string actions:array collection:user_activity_logs
+
+# With created_at and updated_at timestamps
+rails g firestore:model user_log references:user ativity:string actions:array timestamps:true
 ```
 
 
