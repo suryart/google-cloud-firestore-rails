@@ -1,6 +1,6 @@
 ## Generating the keyfile
 
-It can be done in a simple steps:
+It can be done in following steps:
 
 1. Go to https://console.cloud.google.com/apis/credentials/serviceaccountkey - make sure you have the correct project selected(it is shown next to the "Google Cloud Platform" on navigation bar).
 2. Click on "Service account" dropdown and select the existing or new service account as per your choice.
